@@ -1,16 +1,31 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <title>Práctica S8 IG | Creador de Sistemas Solares</title>
+    <title>Práctica S8 IG | Constelaciones de Satélites</title>
     <meta charset="UTF-8" />
     <meta
             name="viewport"
             content="width=device-width, initial-scale=1, user-scalable=no"
     />
-    <!-- <link rel="stylesheet" href="styles.css" /> -->
+     <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-<!-- <script type="module" src="index.js"></script> -->
+<div id="ui-overlay" role="region" aria-label="Controles">
+    <h1 id="page-title">Constelaciones de Satélites Artificiales</h1>
+
+    <div class="ui-row">
+        <label for="time-display" class="ui-label">Tiempo actual:</label>
+        <div id="time-display" class="ui-value" aria-live="polite">—</div>
+    </div>
+
+    <div class="ui-row">
+        <label for="constellation-select" class="ui-label">Constelación:</label>
+        <select id="constellation-select" class="ui-input" aria-label="Seleccionar constelación">
+            <!-- options serán inyectadas desde index.js -->
+        </select>
+    </div>
+</div>
+<script type="module" src="index.js"></script>
 <!--canvas class="renderer" data-engine="three.js r152"-->
 </body>
 </html>

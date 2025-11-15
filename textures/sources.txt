@@ -1,0 +1,5 @@
+https://www.solarsystemscope.com/textures/
+https://www.visibleearth.nasa.gov/images/73934/topography
+
+
+https://threejs.org/examples/webgpu_tsl_earth.html

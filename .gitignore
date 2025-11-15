@@ -3,4 +3,6 @@ node_modules/
 .parcel-cache/
 dist/
 
+.idea/
+
 package-lock.json
