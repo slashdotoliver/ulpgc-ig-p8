@@ -44,7 +44,7 @@ Ejemplo de elemento del dataset:
 }
 ```
 
-A partir de estos valores se calcularon los parámetros necesarios para una órbita elíptica clásica:
+A partir de estos valores se calcularon los parámetros necesarios para una órbita elíptica:
 
 * **a** — semieje mayor
 * **e** — excentricidad
@@ -59,27 +59,30 @@ A partir de estos valores se calcularon los parámetros necesarios para una órb
 Las ecuaciones usadas para obtener la posición del satélite en un instante *t* son las siguientes:
 
 **Anomalía media en el instante t**
-[
+```math
 M(t) = M_0 + n \cdot (t - t_0)
-]
+```
 
 **Ecuación de Kepler (resolviendo E iterativamente)**
-[
+```math
 M = E - e \sin E
-]
+```
 
 **Coordenadas en el plano perifocal**
-[
-x' = a (\cos E - e)
-]
-[
+```math
+x' = a (\cos E - e) \\
 y' = a \sqrt{1 - e^2} \sin E
-]
+```
 
-**Transformación al sistema ECI**
-[
-\mathbf{r}_{ECI} = R_z(\Omega), R_x(i), R_z(\omega), \mathbf{r'}
-]
+**Transformación al sistema ECI ()**
+```math
+x' = a (\cos E - e) \\
+y' = a \sqrt{1 - e^2} \sin E
+```
+
+```math
+r_{ECI} = R_z(\Omega), R_x(i), R_z(\omega), r'
+```
 
 Esta matriz de rotación convierte la órbita desde el plano 2D de la elipse al espacio tridimensional.
 
