@@ -20,6 +20,8 @@ Los vídeos mostrando la visualización realizada se encuentran en:
 * 🎥 [**YouTube**](https://youtu.be/t7z74d5FqfY)
 * 📁 [**OneDrive**](https://alumnosulpgc-my.sharepoint.com/:v:/g/personal/oliver_cabrera101_alu_ulpgc_es/ERqmYx-qHDVLs3sornljqDIBd82Taq_jcP2vgsWhIa2j_w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=Yfl0wG)
 
+La visualización puede también consultarse en el [Repositorio de CodeSandbox](https://codesandbox.io/p/sandbox/ps9d76).
+
 ## Desarrollo
 
 ### Obtención y procesamiento del dataset
