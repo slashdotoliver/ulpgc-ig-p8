@@ -54,6 +54,10 @@ A partir de estos valores se calcularon los parámetros necesarios para una órb
 * **M₀** — anomalía media en el epoch
 * **n** — movimiento medio en rad/s
 
+<p align="center">
+  <img src="images/cosmos-rus.png" alt="Constelacion COSMOS - GLO" width="512">
+</p>
+
 ### Simplificación a una elipse en espacio 3D
 
 Las ecuaciones usadas para obtener la posición del satélite en un instante *t* son las siguientes:
