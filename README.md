@@ -74,7 +74,7 @@ x' = a (\cos E - e) \\
 y' = a \sqrt{1 - e^2} \sin E
 ```
 
-**Transformación al sistema ECI ()**
+**Transformación al sistema ECI (*Earth-Centered Inertial*)**
 ```math
 x' = a (\cos E - e) \\
 y' = a \sqrt{1 - e^2} \sin E
